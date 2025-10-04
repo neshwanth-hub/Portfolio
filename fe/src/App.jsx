@@ -9,6 +9,7 @@ import About from '../components/About'
 import Contact from '../components/Contact'
 import Experiance from '../components/Experiance'
 import Projects from '../components/Projects'
+import Skills from '../components/Skills'
 
 import Footer from '../components/Footer'
 
@@ -20,17 +21,17 @@ function App() {
       
       <Navbar  />
       
-      <Home/>
-      <About data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" />
+      <Home id='home' />
+      <About id='about' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" />
       
       <Experiance />
-      <Projects />
-     
+      <Projects id="projects" />
+      <Skills />
       <Contact />
       {/* <Footer /> */}
       <Footer />
       {/* <Footer /> */}
-      <GitLinkedIn classnam='row-reverse' />
+      <GitLinkedIn classname='row-reverse' />
         
         </>
   )

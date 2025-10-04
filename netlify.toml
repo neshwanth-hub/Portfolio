@@ -1,0 +1,7 @@
+[build]
+  command = "cd fe && npm run build"
+  publish = "fe/dist"
+
+[context.production.environment]
+  SITE_NAME = "neshwanth-portfolio"
+  NODE_ENV = "production"
