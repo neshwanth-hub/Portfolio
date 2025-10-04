@@ -21,16 +21,13 @@ function App() {
       
       <Navbar  />
       
-      <Home id='home' />
-      <About id='about' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" />
-      
+      <Home  />
+      <About  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" />
       <Experiance />
-      <Projects id="projects" />
+      <Projects />
       <Skills />
       <Contact />
-      {/* <Footer /> */}
       <Footer />
-      {/* <Footer /> */}
       <GitLinkedIn classname='row-reverse' />
         
         </>

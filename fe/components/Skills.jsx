@@ -1,4 +1,3 @@
-import '../src/assets/bootstrap.png'; // Assuming you have a CSS file for styles
 // import { scale, transform } from 'framer-motion';
 import { motion as Motion } from 'framer-motion';
 // import AOS from "aos"; // Problematic line
@@ -13,42 +12,42 @@ export default function Skills() {
   const Skill = {
     frontend: {
      fr1: {
-        src: "../src/assets/html.png",
+        src: "src/assets/html.png",
       alt: "HTML Logo",
       title: "HTML",
     },
     fr2: {
-        src: "../src/assets/css.png",
+        src: "src/assets/css.png",
       alt: "CSS Logo",
       title: "CSS",
     },
     fr3: {
-        src: "../src/assets/react.svg",
+        src: "src/assets/react.svg",
       alt: "React Logo",
       title: "React",
     },
     fr4: {
-        src: "../src/assets/recoil.png",
+        src: "src/assets/recoil.png",
       alt: "Recoil Logo",
       title: "Recoil",
     },
     fr5: {
-        src: "../src/assets/bootstrap.png",
+        src: "src/assets/bootstrap.png",
       alt: "Bootstrap Logo",
       title: "Bootstrap",
     },
     fr6: {
-        src: "../src/assets/tailwind.png",
+        src: "src/assets/tailwind.png",
       alt: "Tailwind Logo",
       title: "Tailwind CSS",
     },
     fr7: {
-        src: "../src/assets/nextjs.png",
+        src: "src/assets/nextjs.png",
       alt: "NEXT JS Logo",
       title: "NEXT JS",
     },
     fr8: {
-        src: "../src/assets/framer.png",
+        src: "src/assets/framer.png",
       alt: "Framer Motion Logo",
       title: "Framer Motion",
     },
@@ -57,7 +56,7 @@ export default function Skills() {
 backend: {
       // src: "https://nodejs.org/static/images/logo.svg",
       be1: {
-        src: "../src/assets/node.svg",
+        src: "src/assets/node.svg",
       alt: "NODE JS Logo",
       title: "Node.js",
       } ,
@@ -67,17 +66,17 @@ backend: {
       // title: "Node.js",
       // } ,
       be3: {
-        src: "../src/assets/express.png",
+        src: "src/assets/express.png",
       alt: "Exprss JS Logo",
       title: "Express.js",
       } ,
       be4: {
-        src: "../src/assets/mongo.png",
+        src: "src/assets/mongo.png",
       alt: "MongoDB Logo",
       title: "MongoDB",
       } ,
       be5: {
-        src: "../src/assets/sql.png",
+        src: "src/assets/sql.png",
       alt: "SQL Logo",
       title: "SQL.js",
       } ,
@@ -85,32 +84,32 @@ backend: {
     },
     tools: {
       tl1: {
-        src: "../src/assets/git.png",
+        src: "src/assets/git.png",
       alt: "GIT Logo",
       title: "git",
       },
       tl2: {
-        src: "../src/assets/github.png",
+        src: "src/assets/github.png",
       alt: "GIT-HUB Logo",
       title: "GitHub",
       },
       tl3: {
-        src: "../src/assets/javascript.png",
+        src: "src/assets/javascript.png",
       alt: "JavaScript Logo",
       title: "JavaScript",
       },
       tl4: {
-        src: "../src/assets/postman.png",
+        src: "src/assets/postman.png",
       alt: "Postman Logo",
       title: "Postman",
       },
        tl5: {
-         src: "../src/assets/python.png",
+         src: "src/assets/python.png",
        alt: "Python Logo",
        title: "Python",
        },
        tl6: {
-         src: "../src/assets/typescript.png",
+         src: "src/assets/typescript.png",
        alt: "TypeScript Logo",
        title: "TypeScript",
        },
@@ -131,7 +130,7 @@ backend: {
       </div>
 
       {/* Row 2: Responsive Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 p-5">
+      <div className="grid grid-cols-1 gap-5 p-5">
         {/* Column 1: Frontend */}
         <div className="bg-purple-500 p-3 text-center text-black rounded-xl border border-gray-300 h-auto order-3 md:order-1">
           <h2 className="text-xl font-bold mb-4">Frontend</h2>

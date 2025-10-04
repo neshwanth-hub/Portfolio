@@ -1,6 +1,7 @@
 [build]
   command = "cd fe && npm run build"
   publish = "fe/dist"
+  site = "neshwanth-portfolio"
 
 [context.production.environment]
   SITE_NAME = "neshwanth-portfolio"
